@@ -5,7 +5,7 @@ class Calculater(Tk):
         super().__init__()
         self.geometry("300x500")
         self.title("Calculator")
-        self.wm_iconbitmap("29_icon.ico")
+        self.wm_iconbitmap("gui_icon.ico")
         self.minsize(300, 400)
         self.maxsize(300, 400) 
         self.srcVar = StringVar()
